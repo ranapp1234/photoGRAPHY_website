@@ -1,0 +1,30 @@
+.dropdown{
+    display: none;
+}
+
+ul li:hover .dropdown  {
+    position: absolute;
+    height: 12.5rem;
+    width: 14rem;
+    display: block;
+    background-color:  rgba(125, 143, 145, 0.1);
+    margin-left: -5rem;
+    margin-top: 12px;
+}
+
+.dropdown ul {
+    gap: 2.5rem;
+    margin-left: 3rem;
+    margin-top: -0.4rem;
+    flex-direction: column;
+}
+
+.dropdown ul li {
+    display: flex;
+    flex-direction: column;
+    height: 2rem;
+    width: 8rem;
+    font-size: 1rem;
+    color: black;
+}
+
